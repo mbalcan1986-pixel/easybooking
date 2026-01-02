@@ -1,11 +1,11 @@
 'use client';
-import DemoROForm from '../../components/DemoROForm';
+import DemoENForm from '../../../components/DemoENForm';
 
-export default function DemoRO() {
+export default function DemoEN() {
   return (
     <main style={{ padding: '2rem', fontFamily: 'Arial, sans-serif' }}>
-      <h1>Demo EasyBooking - Română</h1>
-      <DemoROForm />
+      <h1>EasyBooking Demo - English</h1>
+      <DemoENForm />
     </main>
   );
 }
